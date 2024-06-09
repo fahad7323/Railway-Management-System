@@ -50,7 +50,7 @@ export default function StaGmpTableDown() {
   const [loading, setLoading] = useState(false);
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
-  const ref = firebase.firestore().collection('Station/gampaha/Down');
+  const ref = firebase.firestore().collection('Station/DEOGHAR/Down');
 
   const handleClickOpen = () => {
     setOpen(true);

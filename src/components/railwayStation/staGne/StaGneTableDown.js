@@ -50,7 +50,7 @@ export default function StaGneTableDown() {
   const [loading, setLoading] = useState(false);
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
-  const ref = firebase.firestore().collection('Station/ganemulla/Down');
+  const ref = firebase.firestore().collection('Station/MUMBAI/Down');
 
   const handleClickOpen = () => {
     setOpen(true);

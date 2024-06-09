@@ -38,7 +38,7 @@ const Dashboard = () => (
               ].join(','),
             }}
           >
-            Welome to Sri Lanka Railways
+            Welome to Indian Railways
           </Typography>
           <br />
           {/* <img src="/static/cover.jpg" alt="error" width="100%" /> */}

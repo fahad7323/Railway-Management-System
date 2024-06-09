@@ -68,7 +68,7 @@ export default function DelayGmpAdd() {
   const [reason, setReason] = useState('');
   const [note, setNote] = useState('');
   const [open, setOpen] = React.useState(false);
-  const ref = firebase.firestore().collection('Delay/gampaha/Docs');
+  const ref = firebase.firestore().collection('Delay/DEOGHAR/Docs');
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -129,13 +129,13 @@ export default function DelayGmpAdd() {
               onChange={(e) => setTrainName(e.target.value)}
             >
               <MenuItem value="-">-</MenuItem>
-              <MenuItem value="Udarata Menike">Udarata Menike</MenuItem>
-              <MenuItem value="Podi Menike">Podi Menike</MenuItem>
-              <MenuItem value="Tikiri Menike">Tikiri Menike</MenuItem>
-              <MenuItem value="Senkadagala Menike">Senkadagala Menike</MenuItem>
-              <MenuItem value="Yal Devi">Yal Devi</MenuItem>
-              <MenuItem value="Uttara Devi">Uttara Devi</MenuItem>
-              <MenuItem value="Udaya Devi">Udaya Devi</MenuItem>
+              <MenuItem value="GANGA SAGAR">GANGA SAGAR</MenuItem>
+              <MenuItem value="PURBA EXPRESS">PURBA EXPRESS</MenuItem>
+              <MenuItem value="RAJDHANI EXPRESS">RAJDHANI EXPRESS</MenuItem>
+              <MenuItem value="MITHLA EXPRESS">MITHLA EXPRESS</MenuItem>
+              <MenuItem value="NETAJI EXPRESS">NETAJI EXPRESS</MenuItem>
+              <MenuItem value="SAMPARK KRANTI EXP">SAMPARK KARANTI EXP</MenuItem>
+              <MenuItem value="DURONTO EXPRESS">DURONTO EXPRESS</MenuItem>
               <MenuItem value="Rajarata Rejini">Rajarata Rejini</MenuItem>
               <MenuItem value="Ruhunu Kumari">Ruhunu Kumari</MenuItem>
               <MenuItem value="Muthu Kumari">Muthu Kumari</MenuItem>
@@ -147,7 +147,7 @@ export default function DelayGmpAdd() {
               <MenuItem value="Denuwara Manike">Denuwara Manike</MenuItem>
               <MenuItem value="Pulathisi">Pulathisi</MenuItem>
               <MenuItem value="Dakshina">Dakshina</MenuItem>
-              <MenuItem value="Airport Express">Airport Express</MenuItem>
+              <MenuItem value="HOWRAH SF Express">Airport Express</MenuItem>
             </Select>
           </FormControl>
           <FormControl sx={{ m: 2, width: 200 }}>
@@ -162,9 +162,9 @@ export default function DelayGmpAdd() {
               <MenuItem value="-">-</MenuItem>
               <MenuItem value="Slow">Slow</MenuItem>
               <MenuItem value="Semi Express">Semi Express</MenuItem>
-              <MenuItem value="Express">Express</MenuItem>
+              <MenuItem value="Mail Express">Express</MenuItem>
               <MenuItem value="Intercity">Intercity</MenuItem>
-              <MenuItem value="Night Mail">Night Mail</MenuItem>
+              <MenuItem value="SuperFast Express">Night Mail</MenuItem>
             </Select>
           </FormControl>
           <br />
@@ -177,32 +177,32 @@ export default function DelayGmpAdd() {
               label="Destination"
               onChange={(e) => setDestination(e.target.value)}
             >
-              <MenuItem value="Aluthgama">Aluthgama</MenuItem>
-              <MenuItem value="Ambepussa">Ambepussa</MenuItem>
-              <MenuItem value="Badulla">Badulla</MenuItem>
-              <MenuItem value="Batticaloa">Batticaloa</MenuItem>
-              <MenuItem value="Colombo Fort">Colombo Fort</MenuItem>
-              <MenuItem value="Gampaha">Gampaha</MenuItem>
-              <MenuItem value="Ganewaththa">Ganewaththa</MenuItem>
-              <MenuItem value="Jaffna">Jaffna</MenuItem>
+              <MenuItem value="Delhi">Delhi</MenuItem>
+              <MenuItem value="Kolkata">Kolkata</MenuItem>
+              <MenuItem value="Mumbai">Mumbai</MenuItem>
+              <MenuItem value="Lucknow">Lucknow</MenuItem>
+              <MenuItem value="Haryana">Haryana</MenuItem>
+              <MenuItem value="DEOGHAR">DEOGHAR</MenuItem>
+              <MenuItem value="Barddhman">Barddhman</MenuItem>
+              <MenuItem value="BATA NAGAR">BATA NAGAR</MenuItem>
               <MenuItem value="Kalutara South">Kalutara South</MenuItem>
-              <MenuItem value="Kandy">Kandy</MenuItem>
+              <MenuItem value="DURGAPUR">DURGAPUR</MenuItem>
               <MenuItem value="Kankesanturai">Kankesanturai</MenuItem>
               <MenuItem value="Kurunegala">Kurunegala</MenuItem>
-              <MenuItem value="Maho">Maho</MenuItem>
-              <MenuItem value="Mannar">Mannar</MenuItem>
+              <MenuItem value="BARDDHAMAN">BARDDHAMAN</MenuItem>
+              <MenuItem value="Bande">Bandel</MenuItem>
               <MenuItem value="Matale">Matale</MenuItem>
               <MenuItem value="Matara">Matara</MenuItem>
-              <MenuItem value="Mirigama">Mirigama</MenuItem>
+              <MenuItem value="Saktighar">Saktighar</MenuItem>
               <MenuItem value="Moratuwa">Moratuwa</MenuItem>
               <MenuItem value="Panadura">Panadura</MenuItem>
-              <MenuItem value="Polgahawela">Polgahawela</MenuItem>
+              <MenuItem value="Durgapur">DURGAPUR</MenuItem>
               <MenuItem value="Rambukkana">Rambukkana</MenuItem>
               <MenuItem value="Rathmalana">Rathmalana</MenuItem>
               <MenuItem value="Talaimannar">Talaimannar</MenuItem>
               <MenuItem value="Trincomalee">Trincomalee</MenuItem>
               <MenuItem value="Vavuniya">Vavuniya</MenuItem>
-              <MenuItem value="Veyangoda">Veyangoda</MenuItem>
+              <MenuItem value="UP">UP</MenuItem>
             </Select>
           </FormControl>
           <TextField

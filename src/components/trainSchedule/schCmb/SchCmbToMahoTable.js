@@ -50,7 +50,7 @@ export default function SchCmbToMahoTable() {
   const [loading, setLoading] = useState(false);
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
-  const ref = firebase.firestore().collection('Schedule/colombo/Maho');
+  const ref = firebase.firestore().collection('Schedule/colombo/BARDDHAMAN');
 
   const handleClickOpen = () => {
     setOpen(true);

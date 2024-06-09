@@ -64,25 +64,25 @@ export default function DelayStationListML() {
         aria-label="Vertical tabs example"
         sx={{ borderRight: 1, borderColor: 'divider' }}
       >
-        <Tab label="Maradana" {...a11yProps(0)} />
-        <Tab label="Dematagoda" {...a11yProps(1)} />
-        <Tab label="Kelaniya" {...a11yProps(2)} />
-        <Tab label="Wanawasala" {...a11yProps(3)} />
-        <Tab label="Hunupitiya" {...a11yProps(4)} />
-        <Tab label="Ederamulla" {...a11yProps(5)} />
-        <Tab label="Horape" {...a11yProps(6)} />
-        <Tab label="Ragama" {...a11yProps(7)} />
-        <Tab label="Walpola" {...a11yProps(8)} />
-        <Tab label="Batuwaththa" {...a11yProps(9)} />
-        <Tab label="Bulugahagoda" {...a11yProps(10)} />
-        <Tab label="Ganemulla" {...a11yProps(11)} />
-        <Tab label="Yagoda" {...a11yProps(12)} />
-        <Tab label="Gampaha" {...a11yProps(13)} />
-        <Tab label="Daraluwa" {...a11yProps(14)} />
-        <Tab label="Bemmulla" {...a11yProps(15)} />
-        <Tab label="Magalegoda" {...a11yProps(16)} />
-        <Tab label="Heendeniya" {...a11yProps(17)} />
-        <Tab label="Veyangoda" {...a11yProps(18)} />
+        <Tab label="pune" {...a11yProps(0)} />
+        <Tab label="KOLKATA" {...a11yProps(1)} />
+        <Tab label="HOWRAH" {...a11yProps(2)} />
+        <Tab label="BURDWAN" {...a11yProps(3)} />
+        <Tab label="ASANSOL" {...a11yProps(4)} />
+        <Tab label="DURGAPUR" {...a11yProps(5)} />
+        <Tab label="BANDEL" {...a11yProps(6)} />
+        <Tab label="MADHUBANI" {...a11yProps(7)} />
+        <Tab label="DHARBHANGA" {...a11yProps(8)} />
+        <Tab label="PATNA" {...a11yProps(9)} />
+        <Tab label="DELHI" {...a11yProps(10)} />
+        <Tab label="MUMBAI" {...a11yProps(11)} />
+        <Tab label="GOA" {...a11yProps(12)} />
+        <Tab label="DEOGHAR" {...a11yProps(13)} />
+        <Tab label="RANCHI" {...a11yProps(14)} />
+        <Tab label="BANGLOR" {...a11yProps(15)} />
+        <Tab label="SAKTIGHAR" {...a11yProps(16)} />
+        <Tab label="LUCKNOW" {...a11yProps(17)} />
+        <Tab label="UP" {...a11yProps(18)} />
       </Tabs>
       <TabPanel value={value} index={0}>
         <SkeletonModel />
@@ -123,7 +123,7 @@ export default function DelayStationListML() {
       <TabPanel value={value} index={12}>
         <SkeletonModel />
       </TabPanel>
-      {/* Gampaha */}
+      {/* DEOGHAR */}
       <TabPanel value={value} index={13}>
         <DelayGmpAdd />
         <br />

@@ -64,7 +64,7 @@ export default function StaStationListCL() {
         aria-label="Vertical tabs example"
         sx={{ borderRight: 1, borderColor: 'divider' }}
       >
-        <Tab label="Colombo Fort" {...a11yProps(0)} />
+        <Tab label="KOLKATA" {...a11yProps(0)} />
         <Tab label="Secretariat Halt" {...a11yProps(1)} />
         <Tab label="Kompanna Vidiya" {...a11yProps(2)} />
         <Tab label="Kollupitiya" {...a11yProps(3)} />
@@ -80,7 +80,7 @@ export default function StaStationListCL() {
         <Tab label="Egoda Uyana" {...a11yProps(13)} />
         <Tab label="Panadura" {...a11yProps(14)} />
       </Tabs>
-      {/* Colombo Fort */}
+      {/* KOLKATA */}
       <TabPanel value={value} index={0}>
         <StaCmbAddGrid />
         <br />

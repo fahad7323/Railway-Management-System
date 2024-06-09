@@ -16,7 +16,7 @@ export default function Login() {
   return (
     <>
       <Helmet>
-        <title>Login | Sri Lanka Railways</title>
+        <title>Login | Indian Railways</title>
       </Helmet>
       <Box
         sx={{
@@ -57,7 +57,7 @@ export default function Login() {
                     color="textPrimary"
                     variant="h1"
                   >
-                    Sri Lanka Railways
+                    Indian Railways
                   </Typography>
                 </Box>
                 <Box sx={{ mb: 5 }}>

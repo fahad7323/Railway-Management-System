@@ -195,15 +195,15 @@ export default function TicAdd() {
                   <MenuItem value="Ambepussa">Ambepussa</MenuItem>
                   <MenuItem value="Badulla">Badulla</MenuItem>
                   <MenuItem value="Batticaloa">Batticaloa</MenuItem>
-                  <MenuItem value="Colombo Fort">Colombo Fort</MenuItem>
-                  <MenuItem value="Gampaha">Gampaha</MenuItem>
+                  <MenuItem value="KOLKATA">KOLKATA</MenuItem>
+                  <MenuItem value="DEOGHAR">DEOGHAR</MenuItem>
                   <MenuItem value="Ganewaththa">Ganewaththa</MenuItem>
-                  <MenuItem value="Jaffna">Jaffna</MenuItem>
+                  <MenuItem value="BATA NAGAR">BATA NAGAR</MenuItem>
                   <MenuItem value="Kalutara South">Kalutara South</MenuItem>
-                  <MenuItem value="Kandy">Kandy</MenuItem>
+                  <MenuItem value="DURGAPUR">DURGAPUR</MenuItem>
                   <MenuItem value="Kankesanturai">Kankesanturai</MenuItem>
                   <MenuItem value="Kurunegala">Kurunegala</MenuItem>
-                  <MenuItem value="Maho">Maho</MenuItem>
+                  <MenuItem value="BARDDHAMAN">BARDDHAMAN</MenuItem>
                   <MenuItem value="Mannar">Mannar</MenuItem>
                   <MenuItem value="Matale">Matale</MenuItem>
                   <MenuItem value="Matara">Matara</MenuItem>
@@ -216,7 +216,7 @@ export default function TicAdd() {
                   <MenuItem value="Talaimannar">Talaimannar</MenuItem>
                   <MenuItem value="Trincomalee">Trincomalee</MenuItem>
                   <MenuItem value="Vavuniya">Vavuniya</MenuItem>
-                  <MenuItem value="Veyangoda">Veyangoda</MenuItem>
+                  <MenuItem value="UP">UP</MenuItem>
                 </Select>
               </FormControl>
               <FormControl sx={{ m: 2, width: 300 }}>
@@ -232,15 +232,15 @@ export default function TicAdd() {
                   <MenuItem value="Ambepussa">Ambepussa</MenuItem>
                   <MenuItem value="Badulla">Badulla</MenuItem>
                   <MenuItem value="Batticaloa">Batticaloa</MenuItem>
-                  <MenuItem value="Colombo Fort">Colombo Fort</MenuItem>
-                  <MenuItem value="Gampaha">Gampaha</MenuItem>
+                  <MenuItem value="KOLKATA">KOLKATA</MenuItem>
+                  <MenuItem value="DEOGHAR">DEOGHAR</MenuItem>
                   <MenuItem value="Ganewaththa">Ganewaththa</MenuItem>
-                  <MenuItem value="Jaffna">Jaffna</MenuItem>
+                  <MenuItem value="BATA NAGAR">BATA NAGAR</MenuItem>
                   <MenuItem value="Kalutara South">Kalutara South</MenuItem>
-                  <MenuItem value="Kandy">Kandy</MenuItem>
+                  <MenuItem value="DURGAPUR">DURGAPUR</MenuItem>
                   <MenuItem value="Kankesanturai">Kankesanturai</MenuItem>
                   <MenuItem value="Kurunegala">Kurunegala</MenuItem>
-                  <MenuItem value="Maho">Maho</MenuItem>
+                  <MenuItem value="BARDDHAMAN">BARDDHAMAN</MenuItem>
                   <MenuItem value="Mannar">Mannar</MenuItem>
                   <MenuItem value="Matale">Matale</MenuItem>
                   <MenuItem value="Matara">Matara</MenuItem>
@@ -253,7 +253,7 @@ export default function TicAdd() {
                   <MenuItem value="Talaimannar">Talaimannar</MenuItem>
                   <MenuItem value="Trincomalee">Trincomalee</MenuItem>
                   <MenuItem value="Vavuniya">Vavuniya</MenuItem>
-                  <MenuItem value="Veyangoda">Veyangoda</MenuItem>
+                  <MenuItem value="UP">UP</MenuItem>
                 </Select>
               </FormControl>
               <br />
@@ -413,7 +413,7 @@ export default function TicAdd() {
                 id="outlined-start-adornment"
                 label="Tel no"
                 InputProps={{
-                  startAdornment: <InputAdornment position="start">+94</InputAdornment>,
+                  startAdornment: <InputAdornment position="start">+91</InputAdornment>,
                 }}
                 value={tel}
                 onChange={(e) => setTel(e.target.value)}

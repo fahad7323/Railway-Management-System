@@ -50,7 +50,7 @@ export default function SchCmbToGleTable() {
   const [loading, setLoading] = useState(false);
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
-  const ref = firebase.firestore().collection('Schedule/colombo/Galle');
+  const ref = firebase.firestore().collection('Schedule/colombo/JAIPUR');
 
   const handleClickOpen = () => {
     setOpen(true);

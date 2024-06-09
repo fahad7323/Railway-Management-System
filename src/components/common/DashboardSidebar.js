@@ -21,8 +21,8 @@ import NavItem from './NavItem';
 
 const user = {
   avatar: '/static/avatar.png',
-  jobTitle: 'lahiru.d@railway.gov.lk',
-  name: 'Lahiru Dissanayake'
+  jobTitle: 'fahad@railway.gov.in',
+  name: 'Mr Fahad '
 };
 
 const items = [

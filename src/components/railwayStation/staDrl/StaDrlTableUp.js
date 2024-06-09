@@ -50,7 +50,7 @@ export default function StaDrlTableUp() {
   const [loading, setLoading] = useState(false);
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
-  const ref = firebase.firestore().collection('Station/daraluwa/Up');
+  const ref = firebase.firestore().collection('Station/RANCHI/Up');
 
   const handleClickOpen = () => {
     setOpen(true);

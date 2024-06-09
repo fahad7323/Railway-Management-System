@@ -50,7 +50,7 @@ export default function StaBlgTableDown() {
   const [loading, setLoading] = useState(false);
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
-  const ref = firebase.firestore().collection('Station/bulugahagoda/Down');
+  const ref = firebase.firestore().collection('Station/DELHI/Down');
 
   const handleClickOpen = () => {
     setOpen(true);

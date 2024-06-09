@@ -68,15 +68,15 @@ export default function SchStationList1() {
         <Tab label="Ambepussa" {...a11yProps(1)} />
         <Tab label="Badulla" {...a11yProps(2)} />
         <Tab label="Batticaloa" {...a11yProps(3)} />
-        <Tab label="Colombo Fort" {...a11yProps(4)} />
-        <Tab label="Gampaha" {...a11yProps(5)} />
-        <Tab label="Galle" {...a11yProps(6)} />
-        <Tab label="Jaffna" {...a11yProps(7)} />
+        <Tab label="KOLKATA" {...a11yProps(4)} />
+        <Tab label="DEOGHAR" {...a11yProps(5)} />
+        <Tab label="JAIPUR" {...a11yProps(6)} />
+        <Tab label="BATA NAGAR" {...a11yProps(7)} />
         <Tab label="Kalutara South" {...a11yProps(8)} />
-        <Tab label="Kandy" {...a11yProps(9)} />
+        <Tab label="DURGAPUR" {...a11yProps(9)} />
         <Tab label="Kankesanturai" {...a11yProps(10)} />
         <Tab label="Kurunegala" {...a11yProps(11)} />
-        <Tab label="Maho" {...a11yProps(12)} />
+        <Tab label="BARDDHAMAN" {...a11yProps(12)} />
         <Tab label="Mannar" {...a11yProps(13)} />
         <Tab label="Matale" {...a11yProps(14)} />
         <Tab label="Matara" {...a11yProps(15)} />
@@ -89,7 +89,7 @@ export default function SchStationList1() {
         <Tab label="Talaimannar" {...a11yProps(22)} />
         <Tab label="Trincomalee" {...a11yProps(23)} />
         <Tab label="Vavuniya" {...a11yProps(24)} />
-        <Tab label="Veyangoda" {...a11yProps(25)} />
+        <Tab label="UP" {...a11yProps(25)} />
       </Tabs>
       <TabPanel value={value} index={0}>
         <SkeletonModel />
@@ -103,11 +103,11 @@ export default function SchStationList1() {
       <TabPanel value={value} index={3}>
         <SkeletonModel />
       </TabPanel>
-      {/* Colombo Fort */}
+      {/* KOLKATA */}
       <TabPanel value={value} index={4}>
         <SchStationList2Cmb />
       </TabPanel>
-      {/* Gampaha */}
+      {/* DEOGHAR */}
       <TabPanel value={value} index={5}>
         <SchStationList2Gmp />
       </TabPanel>

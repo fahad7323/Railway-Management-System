@@ -69,7 +69,7 @@ export default function SchGmpToKdyAdd() {
   const [frequency, setFrequency] = useState('');
   const [availableClasses, setAvailableClasses] = useState('');
   const [open, setOpen] = React.useState(false);
-  const ref = firebase.firestore().collection('Schedule/gampaha/Kandy');
+  const ref = firebase.firestore().collection('Schedule/DEOGHAR/DURGAPUR');
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -225,14 +225,14 @@ export default function SchGmpToKdyAdd() {
               <MenuItem value="Ambepussa">Ambepussa</MenuItem>
               <MenuItem value="Badulla">Badulla</MenuItem>
               <MenuItem value="Batticaloa">Batticaloa</MenuItem>
-              <MenuItem value="Colombo Fort">Colombo Fort</MenuItem>
+              <MenuItem value="KOLKATA">KOLKATA</MenuItem>
               <MenuItem value="Ganewaththa">Ganewaththa</MenuItem>
-              <MenuItem value="Jaffna">Jaffna</MenuItem>
+              <MenuItem value="BATA NAGAR">BATA NAGAR</MenuItem>
               <MenuItem value="Kalutara South">Kalutara South</MenuItem>
-              <MenuItem value="Kandy">Kandy</MenuItem>
+              <MenuItem value="DURGAPUR">DURGAPUR</MenuItem>
               <MenuItem value="Kankesanturai">Kankesanturai</MenuItem>
               <MenuItem value="Kurunegala">Kurunegala</MenuItem>
-              <MenuItem value="Maho">Maho</MenuItem>
+              <MenuItem value="BARDDHAMAN">BARDDHAMAN</MenuItem>
               <MenuItem value="Mannar">Mannar</MenuItem>
               <MenuItem value="Matale">Matale</MenuItem>
               <MenuItem value="Matara">Matara</MenuItem>
@@ -245,7 +245,7 @@ export default function SchGmpToKdyAdd() {
               <MenuItem value="Talaimannar">Talaimannar</MenuItem>
               <MenuItem value="Trincomalee">Trincomalee</MenuItem>
               <MenuItem value="Vavuniya">Vavuniya</MenuItem>
-              <MenuItem value="Veyangoda">Veyangoda</MenuItem>
+              <MenuItem value="UP">UP</MenuItem>
             </Select>
           </FormControl>
           <TextField

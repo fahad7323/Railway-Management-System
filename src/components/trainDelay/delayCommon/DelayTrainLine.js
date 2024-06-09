@@ -66,8 +66,8 @@ export default function DelayTrainLine() {
       >
         <Tab label="Main Line" {...a11yProps(0)} />
         <Tab label="Coastal line" {...a11yProps(1)} />
-        <Tab label="Puttalam line" {...a11yProps(2)} />
-        <Tab label="Kelani Valley" {...a11yProps(3)} />
+        <Tab label="Western line" {...a11yProps(2)} />
+        <Tab label="South line" {...a11yProps(3)} />
       </Tabs>
       <TabPanel value={value} index={0}>
         <DelayStationListML />

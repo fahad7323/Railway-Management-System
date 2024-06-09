@@ -50,7 +50,7 @@ export default function StaDrlTableDown() {
   const [loading, setLoading] = useState(false);
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
-  const ref = firebase.firestore().collection('Station/daraluwa/Down');
+  const ref = firebase.firestore().collection('Station/RANCHI/Down');
 
   const handleClickOpen = () => {
     setOpen(true);

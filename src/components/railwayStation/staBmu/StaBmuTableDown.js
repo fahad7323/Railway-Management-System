@@ -50,7 +50,7 @@ export default function StaBmuTableDown() {
   const [loading, setLoading] = useState(false);
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
-  const ref = firebase.firestore().collection('Station/bemmulla/Down');
+  const ref = firebase.firestore().collection('Station/BANGLOR/Down');
 
   const handleClickOpen = () => {
     setOpen(true);

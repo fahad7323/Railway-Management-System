@@ -50,7 +50,7 @@ export default function SchGmpToKdyTable() {
   const [loading, setLoading] = useState(false);
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
-  const ref = firebase.firestore().collection('Schedule/gampaha/Kandy');
+  const ref = firebase.firestore().collection('Schedule/DEOGHAR/DURGAPUR');
 
   const handleClickOpen = () => {
     setOpen(true);

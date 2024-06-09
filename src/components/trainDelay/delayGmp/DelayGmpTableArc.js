@@ -50,7 +50,7 @@ export default function DelayGmpTableArc() {
   const [loading, setLoading] = useState(false);
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
-  const ref = firebase.firestore().collection('Delay/gampaha/Docs');
+  const ref = firebase.firestore().collection('Delay/DEOGHAR/Docs');
 
   const handleClickOpen = () => {
     setOpen(true);
